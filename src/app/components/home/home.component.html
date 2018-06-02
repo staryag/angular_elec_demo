@@ -17,35 +17,35 @@
                       </mat-select>
                   </mat-form-field>
                   <mat-form-field>
-                    <input matInput type="number" placeholder="Total" value="100">
+                    <input matInput type="number" placeholder="Total" value="100" class="no-spinners">
                   </mat-form-field>
               </mat-card-content>
             </mat-card>
             <mat-card>
               <mat-card-content class="full-width">
                 <mat-form-field>
-                    <mat-select placeholder="Favorite food">
-                      <mat-option *ngFor="let food of foods" [value]="food.value">
-                        {{ food.viewValue }}
+                    <mat-select placeholder="Abdominales">
+                      <mat-option *ngFor="let abdo of abdominales" [value]="abdo.value">
+                        {{ abdo.viewValue }}
                       </mat-option>
                     </mat-select>
                 </mat-form-field>
                 <mat-form-field>
-                    <input matInput type="number" placeholder="Total" value="50">
+                    <input matInput type="number" placeholder="Total" value="50" class="no-spinners" >
                 </mat-form-field>
               </mat-card-content>
             </mat-card>
             <mat-card>
               <mat-card-content class="full-width">
                 <mat-form-field>
-                    <mat-select placeholder="Favorite food">
-                      <mat-option *ngFor="let food of foods" [value]="food.value">
-                        {{ food.viewValue }}
+                    <mat-select placeholder="Push Ups">
+                      <mat-option *ngFor="let pushUp of flexiones" [value]="pushUp.value">
+                        {{ pushUp.viewValue }}
                       </mat-option>
                     </mat-select>
                 </mat-form-field>
                 <mat-form-field>
-                    <input matInput type="number" placeholder="Total" value="50">
+                    <input matInput type="number" placeholder="Total" value="50" class="no-spinners">
                 </mat-form-field>
               </mat-card-content>
             </mat-card>
